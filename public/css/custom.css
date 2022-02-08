@@ -1,0 +1,21 @@
+#page-content nav{
+    display: flex;
+    justify-content: center;
+}
+
+.active{
+    text-decoration: none;
+    outline: none;
+    color: #2250fc !important;
+}
+
+.sorting select{
+    font-size: .9rem;
+}
+
+@media only screen and (min-width: 768px){
+    .item-desc ul li:first-child{
+        position: absolute;
+        right: 0;
+    }
+}
